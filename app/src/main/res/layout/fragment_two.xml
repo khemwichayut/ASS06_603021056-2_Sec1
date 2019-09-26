@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneFragment">
+
+    <ImageView
+        android:id="@+id/q"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/aek"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/Qname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dollatam Kaianupongsa"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/q"/>
+    <TextView
+        android:id="@+id/Qid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="603020343-4"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Qname"/>
+    <Button
+        android:id="@+id/btnClickFragTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="GO BACK MY FRAGMENT"
+        android:textSize="20sp"
+        android:layout_below="@+id/Qid"/>
+
+
+
+</RelativeLayout>
